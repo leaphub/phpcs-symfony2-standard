@@ -109,7 +109,7 @@ class Symfony2_Sniffs_Commenting_FunctionCommentSniff extends PEAR_Sniffs_Commen
 
         $content = $phpcsFile->getTokensAsString($start, ($end - $start));
 
-        return preg_match('#{@inheritdoc}#i', $content) === 1;
+        return preg_match('#@inheritdoc#i', $content) === 1;
     } // end isInheritDoc()
 
     /**
