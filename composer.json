@@ -12,6 +12,6 @@
         "branch-alias": {
             "dev-master": "2.1-dev"
         }
-    }
-
+    },
+    "abandoned": "slevomat/coding-standard"
 }
